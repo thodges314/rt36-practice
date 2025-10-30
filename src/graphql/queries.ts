@@ -36,3 +36,11 @@ export interface GetAllPostsResponse {
     meta: { totalCount: number };
   };
 }
+
+export interface GetPostResponse {
+  post: Post;
+}
+
+export interface GetPostVariables {
+  id: string;
+}
